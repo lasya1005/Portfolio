@@ -19,9 +19,9 @@ import React from "react";
  * Need an image? Check out https://unsplash.com to download a photo you
  * freely use on your site.
  */
-import image from "../images/design-desk.jpeg";
+import image from "../images/quote.webp";
 
-const imageAltText = "desktop with books and laptop";
+const imageAltText = "Quote by Steve Jobs";
 
 /**
  * Project list
@@ -31,30 +31,35 @@ const imageAltText = "desktop with books and laptop";
  */
 const projectList = [
   {
-    title: "10 Things To Know About Azure Static Web Apps 🎉",
+    title: "FlavourFiesta - A Food Blog Website",
     description:
-      "Collaboration to create a beginner friendly article to help explain Azure Static Web Apps and tooling to get started.",
-    url: "https://dev.to/azure/10-things-to-know-about-azure-static-web-apps-3n4i",
+      "Created a dynamic food blog using HTML, CSS, and JavaScript, featuring engaging navigation and advanced web development techniques for a smooth user experience.",
+    techStack: ["HTML", "CSS", "JavaScript"],
+    url: "https://youtu.be/l-EEhjF89yU",
   },
   {
-    title: "Web Development for Beginners",
+    title: "Student Minds - Cloud Placement Management Database",
     description:
-      "Contributed sketch note imagery to accompany each lesson. These help provide visual representation of what is being taught.",
-    url: "https://github.com/microsoft/web-dev-for-beginners",
+      "Developed a comprehensive placement management system using Python and Tkinter, allowing efficient tracking of student placements and integration with Google Sheets for data accessibility.",
+    techStack: ["Python", "Tkinter", "Google Sheets API", "SQLite"],
+    url: "https://youtu.be/OYgZ0Y93NL4",
   },
   {
-    title: "My Resume Site",
+    title: "SignX- RealTime Indian Sign Language Recognition System and Speech to Sign Conversion",
     description:
-      "Created from Microsoft's resume workshop and deployed to GitHub pages. Includes my experience and design abilities.",
-    url: "https://github.com/microsoft/workshop-library/tree/main/full/build-resume-website",
+      "Currently developing a machine learning project as part of final year major project that translates Indian Sign Language to text and vice versa, aimed at improving communication accessibility.",
+    techStack: ["Python", "OpenCV", "TensorFlow", "Keras"],
+    url: "",
   },
   {
-    title: "GitHub Codespaces and github.dev",
+    title: "Fitness Tracker using Machine Learning",
     description:
-      "Video interview to explain when to use GitHub.dev versus GitHub Codespaces, and how best to use each tool.",
-    url: "https://www.youtube.com/watch?v=c3hHhRME_XI",
+      "Working on an innovative fitness tracker that utilizes machine learning algorithms to provide personalized health insights and recommendations.",
+    techStack: ["Python", "Scikit-learn", "Pandas", "NumPy"],
+    url: "",
   },
 ];
+
 
 const Portfolio = () => {
   return (

@@ -16,27 +16,30 @@ import React from "react";
  * Need an image? Check out https://unsplash.com to download a image you
  * freely use on your site.
  */
-import image from "../images/motion-background.jpg";
+import image from "../images/about_image.avif";
 
-const imageAltText = "purple and blue abstract background";
+const imageAltText = "developer coding image";
 
 /**
  * Sort description that expands on your title on the Home component.
  */
-const description =
-  "I'm a UI/UX student studying at Barnett Technical University. I enjoy creating unique and simplistic user interfaces in creative ways.";
+const description = 
+  "I'm a passionate Computer Science Engineering student at Maturi Venkata Subba Rao Engineering College, with a keen interest in AI/ML and Full Stack Development.";
 
 /**
  * List of some of skills or technologies you work on, are learning,
  * passionate about, or enjoy,
  */
 const skillsList = [
-  "Web design",
-  "User experience",
-  "Inclusive design",
-  "Focus group testing",
-  "Mobile user interfaces",
-  "Graphic design",
+  "Frontend Web Development (HTML, CSS, JavaScript, ReactJS)",
+  "Machine Learning",
+  "Artificial Intelligence",
+  "Python Programming",
+  "C++ Programming",
+  "Data Structures & Algorithms",
+  "Cloud Integration",
+  "API Development",
+  "Database Management (MySQL)"
 ];
 
 /**
@@ -45,7 +48,7 @@ const skillsList = [
  * about you on a professional level.
  */
 const detailOrQuote =
-  "I am passionate about solving problems in new creative ways to drive innovation. By leveraging my UI/UX experience I continually look for new and better ways to make tech accessible by all.";
+  "I am passionate about Front End Development and excited to create engaging user interfaces that make a difference. With my skills in ReactJS, HTML, and CSS, I aim to build responsive and user-friendly web applications that enhance user experiences. Additionally, my interest in AI drives me to explore innovative solutions that can further improve functionality and accessibility. I believe in using technology to empower communities and am eager to contribute my creativity and technical skills to meaningful projects.";
 
 const About = () => {
   return (

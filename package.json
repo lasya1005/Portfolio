@@ -3,14 +3,15 @@
   "version": "1.0.0",
   "description": "Educator JS Codespace Template",
   "source": "src/index.html",
-  "homepage": "https://github.com/microsoft/codespaces-teaching-template-js#readme",
+  "homepage": "https://lasya1005.github.io/Portfolio",
   "scripts": {
-    "start": "parcel",
-    "build": "parcel build",
-    "build-gh": "parcel build --public-url 'https://{github-username}.github.io/{repo-name}'",
-    "predeploy": "npm run build-gh",
-    "deploy": "gh-pages -d dist"
-  },
+  "start": "parcel",
+  "build": "parcel build",
+  "build-gh": "parcel build --public-url 'https://lasya1005.github.io/Portfolio/'",
+  "predeploy": "npm run build-gh",
+  "deploy": "gh-pages -d dist"
+},
+
   "repository": {
     "type": "git",
     "url": "git+https://github.com/microsoft/codespaces-teaching-template-js.git"

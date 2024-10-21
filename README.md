@@ -22,3 +22,15 @@ To set up the project locally, clone the repository and install the necessary de
 git clone https://github.com/lasya1005/Portfolio.git
 cd Portfolio
 npm install
+```
+## Usage
+To run the application locally, use the following command:
+```bash
+npm start
+```
+To deploy the application to GitHub Pages, use:
+```bash
+npm run deploy
+```
+
+

@@ -5,7 +5,7 @@
   "source": "src/index.html",
   "homepage": "https://lasya1005.github.io/Portfolio",
   "scripts": {
-  "start": "parcel",
+  "start": "parcel src/index.html",
   "build": "parcel build",
   "build-gh": "parcel build --public-url 'https://lasya1005.github.io/Portfolio/'",
   "predeploy": "npm run build-gh",
